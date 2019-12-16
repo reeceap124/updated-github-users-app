@@ -1,0 +1,88 @@
+.App * {
+  box-sizing: border-box;
+  /* border: 1px solid gray */
+}
+
+.App {
+  text-align: center;
+  background: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.currentUserWrapper {
+  max-width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.followersWrapper {
+  max-width: 50%;
+  margin-right: 5%;
+}
+
+
+.userListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 99%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 2%;
+
+}
+
+
+.listCard {
+  max-width: 200px;
+  border: 1px solid black;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  box-shadow: -5px 3px 5px gray;
+  word-wrap: break-word;
+  padding: 2%;
+  background: white;
+}
+
+.listCard img {
+  max-width: 90%;
+  border-radius: 3px;
+}
+
+
