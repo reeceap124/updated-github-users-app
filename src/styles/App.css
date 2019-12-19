@@ -52,6 +52,23 @@
   margin-left: 3%;
 }
 
+.currentUser {
+  position: fixed;
+  background: white;
+  border-radius: 3px;
+  box-shadow: -5px 3px 5px gray;
+  word-wrap: break-word;
+  border: 1px solid black;
+  top: 7%;
+  left: 5%;
+  padding: 3%;
+
+}
+
+.currentUser img {
+  height: 300px;
+}
+
 .followersWrapper {
   max-width: 50%;
   margin-right: 5%;

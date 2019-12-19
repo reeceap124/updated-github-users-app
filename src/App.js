@@ -7,8 +7,8 @@ import {CurrentUser} from './components/CurrentUser'
 
 function App() {
   const [users, setUsers] = useState([]);
-  const [text, setText] = useState('reeceap124')
-  const [url, setUrl] = useState(`https://api.github.com/users/${text}`)
+  const [text, setText] = useState('')
+  const [url, setUrl] = useState(`https://api.github.com/users/reeceap124`)
   const [user, setUser] = useState({})
 
   
@@ -60,8 +60,8 @@ function App() {
   return (
     <div className="App">
       <div className='currentUserWrapper'>
-        <EnterUser handleChange={handleChange} handleEnter={handleEnter} text={text}/>
-        <CurrentUser user={user}/>
+        {/* <EnterUser handleChange={handleChange} handleEnter={handleEnter} text={text}/> */}
+        <CurrentUser user={user} handleChange={handleChange} handleEnter={handleEnter} text={text}/>
       </div>
       <div className='followersWrapper'>
         <h2>Followers:</h2>

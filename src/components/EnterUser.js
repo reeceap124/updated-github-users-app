@@ -9,7 +9,7 @@ import TextField from '@material-ui/core/TextField';
     return (
         <div>
             <form onSubmit={props.handleEnter}>
-                <TextField onChange={props.handleChange} value={props.text} placeholder='Enter a Username'/>
+                <TextField onChange={props.handleChange} value={props.text} placeholder='Change the User'/>
                 <Button onClick={props.handleEnter}>Enter</Button>
             </form>
             
