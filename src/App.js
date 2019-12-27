@@ -65,7 +65,7 @@ function App() {
       </div>
       <div className='followersWrapper'>
         <h2>Followers:</h2>
-        <UserList users={users}/>
+        <UserList users={users} url={url} setUrl={setUrl}/>
       </div>
       
     </div>

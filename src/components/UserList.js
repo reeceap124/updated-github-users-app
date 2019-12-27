@@ -7,7 +7,7 @@ export const UserList = (props) => {
     return(
         <div className='userListContainer'>
             {props.users.map((user, index) => (
-                <ListCard key={index} user={user}/>
+                <ListCard key={index} user={user} url={props.url} setUrl={props.setUrl}/>
             ))}
         </div>
     )
