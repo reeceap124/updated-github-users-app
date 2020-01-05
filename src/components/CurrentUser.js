@@ -3,7 +3,6 @@ import {EnterUser} from './EnterUser'
 
 
 export const CurrentUser = props => {
-    console.log('from current user', props.user)
     
     return (
         <div className='currentUser'>
